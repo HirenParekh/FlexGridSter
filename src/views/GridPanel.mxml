@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+  Created by Hiren on 6/26/2015.
+-->
+<s:BorderContainer xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+        borderVisible="false">
+    <s:Panel title="Floating Column Chart"
+            height="100%"
+            width="100%">
+        <s:layout>
+            <s:VerticalLayout/>
+        </s:layout>
+        <s:DataGrid height="100%"
+                    width="100%"
+                    requestedRowCount="5">
+            <s:typicalItem>
+                <s:DataItem key="9999999" name="Typical name length"
+                            price="1234.56" call="false"/>
+            </s:typicalItem>
+
+            <s:ArrayCollection id="items">
+                <s:DataItem key="1000" name="Abrasive" price="100.11" call="false"/>
+                <s:DataItem key="1001" name="Brush" price="110.01" call="true"/>
+                <s:DataItem key="1002" name="Clamp" price="120.02" call="false"/>
+                <s:DataItem key="1003" name="Drill" price="130.03" call="true"/>
+                <s:DataItem key="1004" name="Epoxy" price="140.04" call="false"/>
+                <s:DataItem key="1005" name="File" price="150.05" call="true"/>
+            </s:ArrayCollection>
+        </s:DataGrid>
+    </s:Panel>
+</s:BorderContainer>

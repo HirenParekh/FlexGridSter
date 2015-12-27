@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+  Created by Hiren on 6/26/2015.
+-->
+<s:BorderContainer xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+                   borderVisible="false"
+                   xmlns:mx="library://ns.adobe.com/flex/mx">
+    <fx:Script><![CDATA[
+        import mx.collections.ArrayCollection;
+
+        [Bindable]
+        public var expenses:ArrayCollection = new ArrayCollection([
+            {Month: "Jan", Revenue: 1200, Expenses: 500},
+            {Month: "Feb", Revenue: 1200, Expenses: 550},
+            {Month: "Mar", Revenue: 1240, Expenses: 475},
+            {Month: "Apr", Revenue: 1300, Expenses: 600},
+            {Month: "May", Revenue: 1420, Expenses: 575},
+            {Month: "Jun", Revenue: 1400, Expenses: 600},
+            {Month: "Jul", Revenue: 1500, Expenses: 600},
+            {Month: "Aug", Revenue: 1600, Expenses: 750},
+            {Month: "Sep", Revenue: 1600, Expenses: 735},
+            {Month: "Oct", Revenue: 1750, Expenses: 750},
+            {Month: "Nov", Revenue: 1800, Expenses: 800},
+            {Month: "Dec", Revenue: 2000, Expenses: 850}
+        ]);
+        ]]></fx:Script>
+
+    <s:layout>
+        <s:VerticalLayout/>
+    </s:layout>
+
+    <s:Panel title="Floating Column Chart"
+             height="100%"
+             width="100%">
+        <s:layout>
+            <s:VerticalLayout/>
+        </s:layout>
+        <mx:ColumnChart
+                height="100%"
+                width="100%"
+                dataProvider="{expenses}"
+                showDataTips="true">
+            <mx:horizontalAxis>
+                <mx:CategoryAxis
+                        dataProvider="{expenses}"
+                        categoryField="Month"/>
+            </mx:horizontalAxis>
+            <mx:series>
+                <mx:ColumnSeries
+                        yField="Revenue"
+                        minField="Expenses"
+                        displayName="Revenue"/>
+            </mx:series>
+        </mx:ColumnChart>
+    </s:Panel>
+</s:BorderContainer>

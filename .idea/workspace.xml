@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a336a4e-7d6e-48ff-befd-51b8c2b036e1" name="Default" comment="commit using intelliJ">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FlexGridSterTesting/Main.swf" afterPath="$PROJECT_DIR$/out/production/FlexGridSterTesting/Main.swf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlexGridSterTesting.iml" afterPath="$PROJECT_DIR$/FlexGridSterTesting.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FlexGridSterTesting/Main.html" afterPath="$PROJECT_DIR$/out/production/FlexGridSterTesting/Main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flexGridSter/FlexGridStack.as" afterPath="$PROJECT_DIR$/src/flexGridSter/FlexGridStack.as" />
     </list>
     <ignored path="FlexGridSterTesting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +48,8 @@
       <file leaf-file-name="FlexGridStack.as" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/flexGridSter/FlexGridStack.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="323">
+              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -145,6 +140,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FlexGridSter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexGridSter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexGridSter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexGridSter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexGridSter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexGridSterTesting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,12 +560,20 @@
       <workItem from="1451226647600" duration="720000" />
       <workItem from="1451585055241" duration="103000" />
       <workItem from="1469950058210" duration="2261000" />
-      <workItem from="1469953182566" duration="802000" />
+      <workItem from="1469953182566" duration="924000" />
     </task>
+    <task id="LOCAL-00001" summary="commit using intelliJ">
+      <created>1469955947040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1469955947040</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10889000" />
+    <option name="totallyTimeSpent" value="11011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -841,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/flexGridSter/FlexGridStack.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        <state relative-caret-position="323">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

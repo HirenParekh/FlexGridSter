@@ -102,7 +102,8 @@
               paddingRight="20"
               paddingBottom="20"
               paddingTop="20">
-        <s:HGroup>
+        <s:HGroup visible="false"
+                includeInLayout="false">
             <s:Button click="button3_clickHandler(event)" label="Add Node"/>
         </s:HGroup>
         <h:FlexGridStack id="flexGridStack"
@@ -110,10 +111,10 @@
                          dropIndicatorAlpha="0.4"
                          backgroundAlpha="0"
                          borderVisible="false"
-                         nodeMinWidth="140"
-                         nodeMinHeight="140"
-                         horizontalGap="20"
-                         verticalGap="20"
+                         nodeMinWidth="120"
+                         nodeMinHeight="120"
+                         horizontalGap="15"
+                         verticalGap="15"
                          width="100%"
                          height="100%"/>
     </s:VGroup>

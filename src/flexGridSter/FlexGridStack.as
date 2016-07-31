@@ -146,6 +146,7 @@ package flexGridSter
 
 			item.addElementAt(node, 0);
 			this.addElement(item);
+
 			_pods.push(item);
 		}
 

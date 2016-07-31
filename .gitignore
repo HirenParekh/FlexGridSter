@@ -2,7 +2,7 @@
 bin/
 bin-debug/
 bin-release/
-
+.idea/
 # Other files and folders
 .settings/
 
@@ -22,7 +22,8 @@ bin-release/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

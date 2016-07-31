@@ -3,6 +3,10 @@ bin/
 bin-debug/
 bin-release/
 .idea/
+out/
+out/production/
+Main.mxml
+
 # Other files and folders
 .settings/
 
